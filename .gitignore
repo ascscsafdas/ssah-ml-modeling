@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS & editor artifacts
+.DS_Store
+.ipynb_checkpoints/
+*.swp
+*.swo
+
+# Logs & temp caches
+*.log
+/tmp/
+
+# Regenerable figure sub-panels & SVG copies (recreated by scripts/04_generate_figures.py)
+results/figures/panels/
+results/figures/*.svg
